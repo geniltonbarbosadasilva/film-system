@@ -1,4 +1,4 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Projeto feito com base no curso Angular - Digital Innovation One
 
 Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
 

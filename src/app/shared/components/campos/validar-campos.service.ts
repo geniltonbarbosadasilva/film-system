@@ -9,8 +9,7 @@ export class ValidarCamposService {
     constructor() { }
 
     hasErrorValidar(control: AbstractControl, errorName: string): boolean {
-        if ( (control.dirty || control.touched) && this.hasError( control, errorName) ) {
-            console.log( control, errorName);
+        if ( (control.dirty || control.touched) && this.hasError( control, errorName) ) {            
             return true;
         }
         return false;
