@@ -9,6 +9,12 @@
   }
 }
 
+.filtro-listagem {
+  width: -webkit-calc(100% - 50px);
+  width: -moz-calc(100% - 50px);
+  width: calc(100% - 50px);
+}
+
 @media screen and (min-width: 600px) {
   .home-content {
     .home-card {
