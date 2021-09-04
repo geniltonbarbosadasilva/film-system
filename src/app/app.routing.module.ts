@@ -20,8 +20,18 @@ const routes: Routes = [
       },
       {
         path: 'cadastro',
-        component: CadastroFilmesComponent,
-        pathMatch: 'full'
+        children: [
+          {
+            path: "",
+            component: CadastroFilmesComponent,
+            pathMatch: 'full'
+          },
+          {
+            path: ":id",
+            component: CadastroFilmesComponent,
+            pathMatch: 'full'
+          }
+        ]
       },
       {
         path: ":id",
