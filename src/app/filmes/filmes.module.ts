@@ -7,6 +7,7 @@ import { CadastroFilmesComponent } from './cadastro-filmes/cadastro-filmes.compo
 import { MaterialModule } from '../shared/material/material.module';
 import { ListagemFilmesComponent } from './listagem-filmes/listagem-filmes.component';
 import { CamposModule } from '../shared/components/campos/campos.module';
+import { VisualisarFilmeComponent } from './visualisar-filme/visualisar-filme.component';
 
 
 @NgModule({
@@ -18,6 +19,6 @@ import { CamposModule } from '../shared/components/campos/campos.module';
     CamposModule,
     InfiniteScrollModule
   ],
-  declarations: [CadastroFilmesComponent, ListagemFilmesComponent]
+  declarations: [CadastroFilmesComponent, ListagemFilmesComponent, VisualisarFilmeComponent]
 })
 export class FilmesModule { }

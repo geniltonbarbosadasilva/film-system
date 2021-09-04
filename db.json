@@ -109,26 +109,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
-    },
-    {
-      "titulo": "aa",
-      "urlFoto": "",
-      "dtLancamento": "2021-09-03T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 12
-    },
-    {
-      "titulo": "bb",
-      "urlFoto": "",
-      "dtLancamento": "2021-09-04T03:00:00.000Z",
-      "descricao": "A\nB\nC",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Terror",
-      "id": 13
     }
   ]
 }
